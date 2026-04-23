@@ -1,0 +1,23 @@
+name: calculator
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.4.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter_native_splash:
+  android: true
+  ios: true
+  color: "#ffffff" # Background color of the splash screen
+  image: "lib/aset/image/poto.png" # Path to your splash screen image
+flutter:
+  uses-material-design: true
