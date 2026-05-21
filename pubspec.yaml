@@ -10,6 +10,9 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_native_splash: ^2.4.2
+  sqflite: ^2.4.1
+  path: ^1.9.1
+  http: ^1.6.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -21,3 +24,5 @@ flutter_native_splash:
   image: "lib/aset/image/poto.png" # Path to your splash screen image
 flutter:
   uses-material-design: true
+  assets:
+    - lib/aset/image/poto.png
